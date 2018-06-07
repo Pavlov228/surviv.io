@@ -15,7 +15,7 @@ webpackJsonp([0], {
 				Melee: 2,
 				Count: 4
 			},
-			WeaponType: ["gun", "gun", "melee", "throwable"],
+			WeaponType: ["gun", "gun", "gun", "throwable"],
 			DamageType: {
 				Player: 0,
 				Bleeding: 1,
@@ -52,7 +52,7 @@ webpackJsonp([0], {
 				maxVisualRadius: 3.75,
 				maxInteractionRad: 3.5,
 				minActiveTime: 10,
-				moveSpeed: 12,
+				moveSpeed: 15,
 				health: 100,
 				boostDecay: .33,
 				boostMoveSpeed: 2,
@@ -169,7 +169,7 @@ webpackJsonp([0], {
 					tracerLength: .8
 				},
 				bullet_mosin: {
-					damage: 72,
+					damage: 720,
 					obstacleDamage: 1.5,
 					falloff: .95,
 					distance: 500,
@@ -217,7 +217,7 @@ webpackJsonp([0], {
 					tracerLength: .8
 				},
 				bullet_m9: {
-					damage: 12,
+					damage: 120,
 					obstacleDamage: 1,
 					falloff: .7,
 					speed: 85,
